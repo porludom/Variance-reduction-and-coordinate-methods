@@ -7,4 +7,5 @@ This github containt the following documents:
 - SEGA.ipynb - The Jupyter notebook that runs some experiments on SEGA. This document is designed as the educational notebook with comments.
 
 If you wish to learn about method, feel free to download SEGA.ipynb, read it, run it, and change it.\
+In this notebook, you can also find pytorch implementation of the SEGA, if you need it.\
 You can also access this notebook in colab using [this link](https://colab.research.google.com/drive/1TA99viKEpGh0p252v7RePmJ7_MxDoM16#scrollTo=wq-ASEPIU7XJ)
