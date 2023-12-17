@@ -14,9 +14,9 @@ The SEGA method is used for optimization of the following regularized empirical 
 ![](/images/emp_risk.png)\
 The algorithm is the following\
 ![](/images/algo.png)\
-Here, we use global biased estimation h of the gradient to build and unbiased estimation g, that we can use further in during gradient step. Description of variables and convergence you can see in the original paper or presentation.\
+Here, we use global biased estimation h of the gradient to build and unbiased estimation g, that we can use further in during gradient step. Description of variables and convergence you can see in the original paper or presentation.
 
 This method has the beautiful property: it is variance reduced. Here you can see why\
 Since we have some changing system with some states, it is natural for lyapunov function to appear, and this lyapunov function can be used to estimate current state. lyapunov function for SEGA is the following:\
 ![](/images/lyapunov.png)\
-Authors of the paper state that under some assumptions and conditions, this function has iterates linear convergence. Decreasing in this function means that both x and gradient converge to the optimum. And since gradient converges to the gradient at optimum, the method is variance-reduced.\
+Authors of the paper state that under some assumptions and conditions, this function has iterates linear convergence. Decreasing in this function means that both x and gradient converge to the optimum. And since gradient converges to the gradient at optimum, the method is variance-reduced.
