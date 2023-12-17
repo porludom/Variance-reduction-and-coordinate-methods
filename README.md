@@ -1,6 +1,7 @@
 # Variance-reduction-via-gradient-sketching
-The implementation of paper for the course of optimization methods in machine learning.
-
+Here you can find the implementation of [this paper](https://arxiv.org/pdf/1809.03054.pdf) for the course of optimization methods in machine learning.\
+The SEGA method is used for optimization of the following regularized empirical risk problems.
+![](.\images\emp_risk.png)
 This github containt the following documents:
 - Report_1.pdf - The document that describes method, why to use this method, and where to use this method
 - SEGA_presentation.pptx - The presentation about the method that explains how it works
